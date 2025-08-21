@@ -8,10 +8,15 @@
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans">
   <!-- Hero Section -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+  <section class="relative min-h-screen flex flex-col justify-center items-center text-center px-4">
     <h1 class="text-4xl md:text-6xl font-bold">Ravi Deep Srivastava</h1>
     <h2 class="text-xl md:text-2xl mt-4 text-gray-400">Senior Software Engineer | .NET | Angular | AWS</h2>
     <p class="mt-4">Noida, India | <a href="mailto:er.ravideep2015@gmail.com" class="text-blue-400">er.ravideep2015@gmail.com</a> | <a href="https://www.linkedin.com/in/ravi-deep-srivastava-529722113/" class="text-blue-400" target="_blank">LinkedIn</a></p>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-6 text-gray-400 animate-bounce">
+      ↓
+    </div>
   </section>
 
   <!-- About Section -->
@@ -36,11 +41,79 @@
       </div>
       <div>
         <h3 class="font-semibold text-lg mb-2">Cloud & DevOps</h3>
-        <p class="text-gray-400">AWS (DynamoDB, S3, Lambda, API Gateway), Azure, Jenkins, Terraform, CI/CD, IaC</p>
+        <p class="text-gray-400">AWS (DynamoDB, S3, Lambda, API Gateway, Amazon Cognito), Azure, Jenkins, Terraform, CI/CD, IaC</p>
       </div>
       <div>
         <h3 class="font-semibold text-lg mb-2">Databases</h3>
         <p class="text-gray-400">SQL Server, AWS DynamoDB</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Document Management System</h3>
+        <p class="text-gray-400 mb-4">Enterprise application for managing documents with cloud integration.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-600 text-white px-2 py-1 rounded text-sm">ASP.NET Core 8</span>
+          <span class="bg-green-600 text-white px-2 py-1 rounded text-sm">Angular 18</span>
+          <span class="bg-yellow-600 text-white px-2 py-1 rounded text-sm">AWS Lambda</span>
+          <span class="bg-purple-600 text-white px-2 py-1 rounded text-sm">DynamoDB</span>
+          <span class="bg-indigo-600 text-white px-2 py-1 rounded text-sm">Amazon Cognito</span>
+          <span class="bg-red-600 text-white px-2 py-1 rounded text-sm">Terraform</span>
+        </div>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Document Composition System</h3>
+        <p class="text-gray-400 mb-4">Built scalable document composition features with cloud-first approach.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-600 text-white px-2 py-1 rounded text-sm">ASP.NET Core</span>
+          <span class="bg-green-600 text-white px-2 py-1 rounded text-sm">Angular 18</span>
+          <span class="bg-yellow-600 text-white px-2 py-1 rounded text-sm">Azure</span>
+          <span class="bg-purple-600 text-white px-2 py-1 rounded text-sm">API Gateway</span>
+          <span class="bg-indigo-600 text-white px-2 py-1 rounded text-sm">Amazon Cognito</span>
+          <span class="bg-red-600 text-white px-2 py-1 rounded text-sm">Terraform</span>
+        </div>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Maruti Suzuki LMS</h3>
+        <p class="text-gray-400 mb-4">Learning management system with responsive UI and strong backend.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-600 text-white px-2 py-1 rounded text-sm">ASP.NET</span>
+          <span class="bg-green-600 text-white px-2 py-1 rounded text-sm">Angular 6</span>
+          <span class="bg-yellow-600 text-white px-2 py-1 rounded text-sm">SQL Server</span>
+          <span class="bg-purple-600 text-white px-2 py-1 rounded text-sm">Azure</span>
+        </div>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Epromo</h3>
+        <p class="text-gray-400 mb-4">Promotional platform with secure authentication and performance tuning.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-600 text-white px-2 py-1 rounded text-sm">ASP.NET Core</span>
+          <span class="bg-yellow-600 text-white px-2 py-1 rounded text-sm">SQL Server</span>
+          <span class="bg-green-600 text-white px-2 py-1 rounded text-sm">Azure AD</span>
+        </div>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Codelate</h3>
+        <p class="text-gray-400 mb-4">Web application built with MVC and Entity Framework.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-600 text-white px-2 py-1 rounded text-sm">ASP.NET MVC</span>
+          <span class="bg-green-600 text-white px-2 py-1 rounded text-sm">Entity Framework</span>
+          <span class="bg-yellow-600 text-white px-2 py-1 rounded text-sm">SQL Server</span>
+        </div>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Indico</h3>
+        <p class="text-gray-400 mb-4">Web-based solution with integrated front-end and backend components.</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-600 text-white px-2 py-1 rounded text-sm">MVC 4</span>
+          <span class="bg-yellow-600 text-white px-2 py-1 rounded text-sm">SQL Server</span>
+          <span class="bg-purple-600 text-white px-2 py-1 rounded text-sm">Azure</span>
+        </div>
       </div>
     </div>
   </section>
@@ -56,6 +129,7 @@
           <li>Led database structuring and cloud integration</li>
           <li>Optimized application performance and security measures</li>
           <li>Collaborated with cross-functional teams for seamless delivery</li>
+          <li>Provisioned infrastructure using Terraform and implemented authentication flows using Amazon Cognito</li>
         </ul>
       </div>
       <div>
